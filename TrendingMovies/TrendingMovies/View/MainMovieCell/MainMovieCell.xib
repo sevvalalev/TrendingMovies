@@ -21,27 +21,27 @@
                         <rect key="frame" x="16" y="8" width="328" height="130"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Ehk-AQ-TGZ">
-                                <rect key="frame" x="8" y="5" width="125" height="120"/>
+                                <rect key="frame" x="8" y="5" width="95" height="120"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="Ehk-AQ-TGZ" secondAttribute="height" multiplier="141:128" constant="-7.1875" id="8nl-Rj-tmQ"/>
+                                    <constraint firstAttribute="width" secondItem="Ehk-AQ-TGZ" secondAttribute="height" multiplier="141:128" constant="-37.1875" id="8nl-Rj-tmQ"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Movie Name" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UjN-ym-Uoy">
                                 <rect key="frame" x="141" y="5" width="179" height="23"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="19"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8dm-rP-HLw">
-                                <rect key="frame" x="141" y="78" width="179" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8dm-rP-HLw">
+                                <rect key="frame" x="141" y="83.333333333333329" width="179" height="19.333333333333329"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="16"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rate" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wrz-ii-EJY">
-                                <rect key="frame" x="141" y="107" width="179" height="18"/>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
-                                <nil key="textColor"/>
+                                <rect key="frame" x="141" y="110.66666666666667" width="179" height="14.333333333333329"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleCaption1"/>
+                                <color key="textColor" red="1" green="0.8054645395359884" blue="0.053401661628537433" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -51,12 +51,12 @@
                             <constraint firstAttribute="bottom" secondItem="Ehk-AQ-TGZ" secondAttribute="bottom" constant="5" id="OHL-ID-DLH"/>
                             <constraint firstItem="UjN-ym-Uoy" firstAttribute="top" secondItem="Ehk-AQ-TGZ" secondAttribute="top" id="OPV-UB-7tN"/>
                             <constraint firstItem="UjN-ym-Uoy" firstAttribute="top" secondItem="9LN-R0-5yl" secondAttribute="top" constant="5" id="XT2-oY-cQQ"/>
-                            <constraint firstItem="UjN-ym-Uoy" firstAttribute="leading" secondItem="Ehk-AQ-TGZ" secondAttribute="trailing" constant="8" id="acU-qQ-xDB"/>
-                            <constraint firstItem="wrz-ii-EJY" firstAttribute="leading" secondItem="Ehk-AQ-TGZ" secondAttribute="trailing" constant="8" id="arY-od-Bvr"/>
+                            <constraint firstItem="UjN-ym-Uoy" firstAttribute="leading" secondItem="Ehk-AQ-TGZ" secondAttribute="trailing" constant="38" id="acU-qQ-xDB"/>
+                            <constraint firstItem="wrz-ii-EJY" firstAttribute="leading" secondItem="Ehk-AQ-TGZ" secondAttribute="trailing" constant="38" id="arY-od-Bvr"/>
                             <constraint firstAttribute="trailing" secondItem="UjN-ym-Uoy" secondAttribute="trailing" constant="8" id="e3n-7m-Z4R"/>
                             <constraint firstItem="Ehk-AQ-TGZ" firstAttribute="top" secondItem="9LN-R0-5yl" secondAttribute="top" constant="5" id="gCK-J9-Cap"/>
                             <constraint firstItem="wrz-ii-EJY" firstAttribute="top" secondItem="8dm-rP-HLw" secondAttribute="bottom" constant="8" id="jNy-a2-mZ4"/>
-                            <constraint firstItem="8dm-rP-HLw" firstAttribute="leading" secondItem="Ehk-AQ-TGZ" secondAttribute="trailing" constant="8" id="kLJ-tu-dyZ"/>
+                            <constraint firstItem="8dm-rP-HLw" firstAttribute="leading" secondItem="Ehk-AQ-TGZ" secondAttribute="trailing" constant="38" id="kLJ-tu-dyZ"/>
                             <constraint firstItem="Ehk-AQ-TGZ" firstAttribute="leading" secondItem="9LN-R0-5yl" secondAttribute="leading" constant="8" id="lDX-sO-2t7"/>
                             <constraint firstAttribute="trailing" secondItem="8dm-rP-HLw" secondAttribute="trailing" constant="8" id="mP6-8B-A5I"/>
                             <constraint firstAttribute="trailing" secondItem="wrz-ii-EJY" secondAttribute="trailing" constant="8" id="qmT-fh-RhL"/>

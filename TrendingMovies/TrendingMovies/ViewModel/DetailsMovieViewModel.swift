@@ -15,6 +15,7 @@ class DetailsMovieViewModel {
     var movieTitle: String?
     var movieDescription: String?
     var movieID: Int
+    var rate: Double?
     
     init(movie: Movie) {
         self.movie = movie
@@ -23,6 +24,7 @@ class DetailsMovieViewModel {
         self.movieID = movie.id
         self.movieDescription = movie.overview ?? ""
         self.movieImage = makeImageURL(movie.backdropPath ?? "")
+        self.rate = movie.voteAverage ?? 0.0
     }
     
     private func makeImageURL( _ imageCode: String) -> URL? {

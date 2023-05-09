@@ -14,6 +14,7 @@ class DetailsMovieViewController: UIViewController {
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var descriptionLabel: UILabel!
+    @IBOutlet weak var rateLabel: UILabel!
     
     var viewModel: DetailsMovieViewModel
     
@@ -36,6 +37,7 @@ class DetailsMovieViewController: UIViewController {
         self.title = "Movie Detail"
         titleLabel.text = viewModel.movieTitle
         descriptionLabel.text = viewModel.movieDescription
+        rateLabel.text = "\(round((viewModel.rate ?? 0.0) * 10) / 10)/10"
         imageView.sd_setImage(with: viewModel.movieImage)
     }
 }

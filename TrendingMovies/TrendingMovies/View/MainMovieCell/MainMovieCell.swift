@@ -32,9 +32,8 @@ class MainMovieCell: UITableViewCell {
         super.awakeFromNib()
         // Initialization code
             
-        backView.addBorder(color: .lightGray, width: 1)
         backView.round()
-        backView.backgroundColor = .lightGray.withAlphaComponent(0.3)
+        
         movieImageView.round(5)
     }
     
@@ -47,3 +46,4 @@ class MainMovieCell: UITableViewCell {
     }
     
 }
+
